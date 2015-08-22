@@ -1,0 +1,70 @@
+﻿2015/08/20 1:56:33 にビルドを開始しました。
+     1>ノード 3 上のプロジェクト "C:\Dev\Simbicon\gsl\gsl.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IC:\Dev\Simbicon\ /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CRT_SECURE_NO_WARNINGS /D GSL_DLL /D DLL_EXPORT /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /wd4273 /analyze- /errorReport:prompt blas\blas.c blas\cblas.c block\block.c block\file.c block\init.c error.c matrix\getset.c matrix\matrix.c vector\copy.c vector\minmax.c vector\oper.c vector\prop.c vector\swap.c vector\vector.c
+         vector.c
+         swap.c
+         prop.c
+         oper.c
+         minmax.c
+         copy.c
+         matrix.c
+         getset.c
+         error.c
+     1>error.c(40): warning C4474: 'printf': 書式文字列に渡された引数の数が多すぎます
+         error.c(40): note: placeholders and their parameters expect 0 variadic arguments, but 3 were provided
+         init.c
+         file.c
+         block.c
+         cblas.c
+         blas.c
+         コードを生成中...
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IC:\Dev\Simbicon\ /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CRT_SECURE_NO_WARNINGS /D GSL_DLL /D DLL_EXPORT /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\copy1.obj" /Fd"Debug\vc140.pdb" /Gd /TC /wd4273 /analyze- /errorReport:prompt matrix\copy.c
+         copy.c
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IC:\Dev\Simbicon\ /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CRT_SECURE_NO_WARNINGS /D GSL_DLL /D DLL_EXPORT /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\file2.obj" /Fd"Debug\vc140.pdb" /Gd /TC /wd4273 /analyze- /errorReport:prompt matrix\file.c
+         file.c
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IC:\Dev\Simbicon\ /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CRT_SECURE_NO_WARNINGS /D GSL_DLL /D DLL_EXPORT /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\init2.obj" /Fd"Debug\vc140.pdb" /Gd /TC /wd4273 /analyze- /errorReport:prompt matrix\init.c
+         init.c
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IC:\Dev\Simbicon\ /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CRT_SECURE_NO_WARNINGS /D GSL_DLL /D DLL_EXPORT /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\minmax1.obj" /Fd"Debug\vc140.pdb" /Gd /TC /wd4273 /analyze- /errorReport:prompt matrix\minmax.c
+         minmax.c
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IC:\Dev\Simbicon\ /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CRT_SECURE_NO_WARNINGS /D GSL_DLL /D DLL_EXPORT /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\oper1.obj" /Fd"Debug\vc140.pdb" /Gd /TC /wd4273 /analyze- /errorReport:prompt matrix\oper.c
+         oper.c
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IC:\Dev\Simbicon\ /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CRT_SECURE_NO_WARNINGS /D GSL_DLL /D DLL_EXPORT /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\prop1.obj" /Fd"Debug\vc140.pdb" /Gd /TC /wd4273 /analyze- /errorReport:prompt matrix\prop.c
+         prop.c
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IC:\Dev\Simbicon\ /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CRT_SECURE_NO_WARNINGS /D GSL_DLL /D DLL_EXPORT /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\swap1.obj" /Fd"Debug\vc140.pdb" /Gd /TC /wd4273 /analyze- /errorReport:prompt matrix\swap.c
+         swap.c
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IC:\Dev\Simbicon\ /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CRT_SECURE_NO_WARNINGS /D GSL_DLL /D DLL_EXPORT /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\file1.obj" /Fd"Debug\vc140.pdb" /Gd /TC /wd4273 /analyze- /errorReport:prompt vector\file.c
+         file.c
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IC:\Dev\Simbicon\ /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CRT_SECURE_NO_WARNINGS /D GSL_DLL /D DLL_EXPORT /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\init1.obj" /Fd"Debug\vc140.pdb" /Gd /TC /wd4273 /analyze- /errorReport:prompt vector\init.c
+         init.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Dev\Simbicon\binaries\Debug\gsl.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Dev\Simbicon\binaries\Debug\gsl.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Dev\Simbicon\binaries\Debug\gsl.lib" /MACHINE:X86 /SAFESEH /DLL Debug\blas.obj
+         Debug\cblas.obj
+         Debug\block.obj
+         Debug\file.obj
+         Debug\init.obj
+         Debug\error.obj
+         Debug\getset.obj
+         Debug\matrix.obj
+         Debug\copy.obj
+         Debug\minmax.obj
+         Debug\oper.obj
+         Debug\prop.obj
+         Debug\swap.obj
+         Debug\vector.obj
+         Debug\copy1.obj
+         Debug\file2.obj
+         Debug\init2.obj
+         Debug\minmax1.obj
+         Debug\oper1.obj
+         Debug\prop1.obj
+         Debug\swap1.obj
+         Debug\file1.obj
+         Debug\init1.obj
+            ライブラリ C:\Dev\Simbicon\binaries\Debug\gsl.lib とオブジェクト C:\Dev\Simbicon\binaries\Debug\gsl.exp を作成中
+         gsl.vcxproj -> C:\Dev\Simbicon\binaries\Debug\gsl.dll
+     1>プロジェクト "C:\Dev\Simbicon\gsl\gsl.vcxproj" (Build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:22.55

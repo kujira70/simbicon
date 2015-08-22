@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\forces">
+      <UniqueIdentifier>{f1cf8153-98b9-4ace-bcb5-e74808e92f2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CD">
+      <UniqueIdentifier>{46f18ae2-e448-4bad-b032-555bce5e1ddf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Joint">
+      <UniqueIdentifier>{ec81fbbd-b34e-49ca-a716-c2dbe9479b81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\forces">
+      <UniqueIdentifier>{c8d05747-52fd-4461-b2c3-9fa149f5d266}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CD">
+      <UniqueIdentifier>{54dc5b2b-cfc7-41b6-bead-6e47352d95de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Joint">
+      <UniqueIdentifier>{2c2f4354-ca3e-47de-8fd4-4d664ac0f68e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Static Files">
+      <UniqueIdentifier>{35251a1b-332d-466f-a52c-8807334b5e01}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ArticulatedFigure.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ArticulatedRigidBody.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ODEWorld.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsGlobals.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PreCollisionQuery.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RBForceAccumulator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RBProperties.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RBState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RBUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RigidBody.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxCDP.cpp">
+      <Filter>Source Files\CD</Filter>
+    </ClCompile>
+    <ClCompile Include="CapsuleCDP.cpp">
+      <Filter>Source Files\CD</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionDetectionPrimitive.cpp">
+      <Filter>Source Files\CD</Filter>
+    </ClCompile>
+    <ClCompile Include="PlaneCDP.cpp">
+      <Filter>Source Files\CD</Filter>
+    </ClCompile>
+    <ClCompile Include="SphereCDP.cpp">
+      <Filter>Source Files\CD</Filter>
+    </ClCompile>
+    <ClCompile Include="BallInSocketJoint.cpp">
+      <Filter>Source Files\Joint</Filter>
+    </ClCompile>
+    <ClCompile Include="HingeJoint.cpp">
+      <Filter>Source Files\Joint</Filter>
+    </ClCompile>
+    <ClCompile Include="Joint.cpp">
+      <Filter>Source Files\Joint</Filter>
+    </ClCompile>
+    <ClCompile Include="StiffJoint.cpp">
+      <Filter>Source Files\Joint</Filter>
+    </ClCompile>
+    <ClCompile Include="UniversalJoint.cpp">
+      <Filter>Source Files\Joint</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics_wrap.cpp">
+      <Filter>Static Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ArticulatedFigure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ArticulatedRigidBody.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="collisionLibrary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ContactPoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ODEWorld.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsGlobals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PreCollisionQuery.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RBForceAccumulator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RBProperties.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RBState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RBUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RigidBody.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstantForce.h">
+      <Filter>Header Files\forces</Filter>
+    </ClInclude>
+    <ClInclude Include="Force.h">
+      <Filter>Header Files\forces</Filter>
+    </ClInclude>
+    <ClInclude Include="TimedConstantForce.h">
+      <Filter>Header Files\forces</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxCDP.h">
+      <Filter>Header Files\CD</Filter>
+    </ClInclude>
+    <ClInclude Include="CapsuleCDP.h">
+      <Filter>Header Files\CD</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionDetectionPrimitive.h">
+      <Filter>Header Files\CD</Filter>
+    </ClInclude>
+    <ClInclude Include="PlaneCDP.h">
+      <Filter>Header Files\CD</Filter>
+    </ClInclude>
+    <ClInclude Include="SphereCDP.h">
+      <Filter>Header Files\CD</Filter>
+    </ClInclude>
+    <ClInclude Include="BallInSocketJoint.h">
+      <Filter>Header Files\Joint</Filter>
+    </ClInclude>
+    <ClInclude Include="HingeJoint.h">
+      <Filter>Header Files\Joint</Filter>
+    </ClInclude>
+    <ClInclude Include="Joint.h">
+      <Filter>Header Files\Joint</Filter>
+    </ClInclude>
+    <ClInclude Include="StiffJoint.h">
+      <Filter>Header Files\Joint</Filter>
+    </ClInclude>
+    <ClInclude Include="UniversalJoint.h">
+      <Filter>Header Files\Joint</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsDll.h">
+      <Filter>Static Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Physics.i" />
+    <None Include="..\Python\PhysicsTest.py" />
+  </ItemGroup>
+</Project>

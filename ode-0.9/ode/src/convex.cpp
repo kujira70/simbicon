@@ -24,7 +24,7 @@
 Code for Convex Collision Detection
 By Rodrigo Hernandez
 */
-//#include <algorithm>
+#include <algorithm> //KW20150814
 #include <ode/common.h>
 #include <ode/collision.h>
 #include <ode/matrix.h>

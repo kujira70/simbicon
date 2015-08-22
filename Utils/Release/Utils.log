@@ -1,0 +1,56 @@
+﻿2015/08/21 8:50:10 にビルドを開始しました。
+     1>ノード 3 上のプロジェクト "C:\Dev\Simbicon\Utils\Utils.vcxproj" (Build ターゲット)。
+     1>PreBuildEvent:
+         echo Compiling Python interface
+         echo off
+         ..\..\lib\swigwin-1.3.39\swig.exe -python -c++ -o Utils_wrap.cpp C:\Dev\Simbicon\Utils\Utils.i
+         
+         :VCEnd
+         Compiling Python interface
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IC:\Dev\Simbicon\ /I"C:\python26-86\include\\" /Zi /nologo /W3 /WX- /O2 /Ot /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D UTILS_EXPORTS /D _CRT_SECURE_NO_WARNINGS /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /wd4231 /analyze- /errorReport:prompt Utils_wrap.cpp
+         Utils_wrap.cpp
+     1>c:\python26-86\include\pymath.h(26): warning C4273: 'acosh': dll リンクが一貫していません。
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\math.h(477): note: 'acosh' の以前の定義を確認してください
+     1>c:\python26-86\include\pymath.h(30): warning C4273: 'asinh': dll リンクが一貫していません。
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\math.h(478): note: 'asinh' の以前の定義を確認してください
+     1>c:\python26-86\include\pymath.h(34): warning C4273: 'atanh': dll リンクが一貫していません。
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\math.h(479): note: 'atanh' の以前の定義を確認してください
+     1>c:\python26-86\include\pymath.h(38): warning C4273: 'log1p': dll リンクが一貫していません。
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\math.h(505): note: 'log1p' の以前の定義を確認してください
+     1>C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xtgmath.h(179): warning C4273: 'acosh': dll リンクが一貫していません。
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\math.h(477): note: 'acosh' の以前の定義を確認してください
+     1>C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xtgmath.h(180): warning C4273: 'asinh': dll リンクが一貫していません。
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\math.h(478): note: 'asinh' の以前の定義を確認してください
+     1>C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xtgmath.h(181): warning C4273: 'atanh': dll リンクが一貫していません。
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\math.h(479): note: 'atanh' の以前の定義を確認してください
+     1>C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xtgmath.h(197): warning C4273: 'log1p': dll リンクが一貫していません。
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\math.h(505): note: 'log1p' の以前の定義を確認してください
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(C:\Dev\Simbicon\binaries\Release\Utils.dll) does not match the Linker's OutputFile property value (C:\Dev\Simbicon\binaries\Release\_Utils.pyd). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1190,5): warning MSB8012: TargetExt(.dll) does not match the Linker's OutputFile property value (.pyd). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1191,5): warning MSB8012: TargetName(Utils) does not match the Linker's OutputFile property value (_Utils). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Dev\Simbicon\binaries\Release\_Utils.pyd" /INCREMENTAL:NO /NOLOGO ..\..\libs\python26.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:LIBCMT /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Dev\Simbicon\binaries\Release\Utils.pdb" /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Dev\Simbicon\binaries\Release\Utils.lib" /MACHINE:X86 /SAFESEH /DLL Release\BMPIO.obj
+         Release\GradientDescentOptimizer.obj
+         Release\Image.obj
+         Release\Utils.obj
+         Release\Utils_wrap.obj
+            ライブラリ C:\Dev\Simbicon\binaries\Release\Utils.lib とオブジェクト C:\Dev\Simbicon\binaries\Release\Utils.exp を作成中
+         コード生成しています。
+         0 of 2025 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+           0 functions were new in current compilation
+           0 functions had inline decision re-evaluated but remain unchanged
+         コード生成が終了しました。
+         Utils.vcxproj -> C:\Dev\Simbicon\binaries\Release\Utils.dll
+       PostBuildEvent:
+         echo Creating python library
+         move C:\Dev\Simbicon\Utils\Utils.py C:\Dev\Simbicon\binaries\Release\Utils.py
+         
+         :VCEnd
+         Creating python library
+                 1 個のファイルを移動しました。
+     1>プロジェクト "C:\Dev\Simbicon\Utils\Utils.vcxproj" (Build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:04.16

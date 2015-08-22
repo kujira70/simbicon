@@ -1,0 +1,66 @@
+﻿2015/08/22 12:54:12 にビルドを開始しました。
+     1>ノード 3 上のプロジェクト "C:\Dev\Simbicon\Physics\Physics.vcxproj" (Build ターゲット)。
+     1>PreBuildEvent:
+         echo Compiling Python interface
+         echo off
+         ..\..\lib\swigwin-1.3.39\swig.exe -python -c++ -o Physics_wrap.cpp C:\Dev\Simbicon\Physics\Physics.i
+         
+         :VCEnd
+         Compiling Python interface
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\lib\Python26\include /IC:\Dev\Simbicon\ /I"C:\Dev\Simbicon\/ode-0.9/include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D PHYSICS_EXPORTS /D _CRT_SECURE_NO_WARNINGS /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /wd4231 /analyze- /errorReport:prompt Physics_wrap.cpp
+         Physics_wrap.cpp
+     1>c:\dev\lib\python26\include\pymath.h(26): warning C4273: 'acosh': dll リンクが一貫していません。
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\math.h(477): note: 'acosh' の以前の定義を確認してください
+     1>c:\dev\lib\python26\include\pymath.h(30): warning C4273: 'asinh': dll リンクが一貫していません。
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\math.h(478): note: 'asinh' の以前の定義を確認してください
+     1>c:\dev\lib\python26\include\pymath.h(34): warning C4273: 'atanh': dll リンクが一貫していません。
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\math.h(479): note: 'atanh' の以前の定義を確認してください
+     1>c:\dev\lib\python26\include\pymath.h(38): warning C4273: 'log1p': dll リンクが一貫していません。
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\math.h(505): note: 'log1p' の以前の定義を確認してください
+     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\xtgmath.h(179): warning C4273: 'acosh': dll リンクが一貫していません。
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\math.h(477): note: 'acosh' の以前の定義を確認してください
+     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\xtgmath.h(180): warning C4273: 'asinh': dll リンクが一貫していません。
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\math.h(478): note: 'asinh' の以前の定義を確認してください
+     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\xtgmath.h(181): warning C4273: 'atanh': dll リンクが一貫していません。
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\math.h(479): note: 'atanh' の以前の定義を確認してください
+     1>c:\program files (x86)\microsoft visual studio 14.0\vc\include\xtgmath.h(197): warning C4273: 'log1p': dll リンクが一貫していません。
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\math.h(505): note: 'log1p' の以前の定義を確認してください
+     1>c:\dev\simbicon\mathlib\mathlib.h(16): warning C4005: 'INFINITY': マクロが再定義されました。
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\math.h(78): note: 'INFINITY' の以前の定義を確認してください
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(C:\Dev\Simbicon\binaries\Debug\Physics.dll) does not match the Linker's OutputFile property value (C:\Dev\Simbicon\binaries\Debug\_Physics.pyd). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1190,5): warning MSB8012: TargetExt(.dll) does not match the Linker's OutputFile property value (.pyd). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1191,5): warning MSB8012: TargetName(Physics) does not match the Linker's OutputFile property value (_Physics). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Dev\Simbicon\binaries\Debug\_Physics.pyd" /INCREMENTAL /NOLOGO ..\..\lib\Python26\libs\python26.lib opengl32.lib glu32.lib ..\..\lib\glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:LIBCMT /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Dev\Simbicon\binaries\Debug\Physics.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Dev\Simbicon\binaries\Debug\Physics.lib" /MACHINE:X86 /SAFESEH /DLL Debug\ArticulatedFigure.obj
+         Debug\ArticulatedRigidBody.obj
+         Debug\BallInSocketJoint.obj
+         Debug\BoxCDP.obj
+         Debug\CapsuleCDP.obj
+         Debug\CollisionDetectionPrimitive.obj
+         Debug\HingeJoint.obj
+         Debug\Joint.obj
+         Debug\ODEWorld.obj
+         Debug\PhysicsGlobals.obj
+         Debug\Physics_wrap.obj
+         Debug\PlaneCDP.obj
+         Debug\PreCollisionQuery.obj
+         Debug\RBForceAccumulator.obj
+         Debug\RBProperties.obj
+         Debug\RBState.obj
+         Debug\RBUtils.obj
+         Debug\RigidBody.obj
+         Debug\SphereCDP.obj
+         Debug\StiffJoint.obj
+         Debug\UniversalJoint.obj
+         Debug\World.obj
+         C:\Dev\Simbicon\binaries\Debug\GLUtils.lib
+         C:\Dev\Simbicon\binaries\Debug\MathLib.lib
+         C:\Dev\Simbicon\binaries\Debug\ode.lib
+         C:\Dev\Simbicon\binaries\Debug\Utils.lib
+     1>LINK : fatal error LNK1104: ファイル 'C:\Dev\Simbicon\binaries\Debug\GLUtils.lib' を開くことができません。
+     1>プロジェクト "C:\Dev\Simbicon\Physics\Physics.vcxproj" (Build ターゲット) のビルドが終了しました -- 失敗。
+
+ビルドに失敗しました。
+
+経過時間 00:00:07.06

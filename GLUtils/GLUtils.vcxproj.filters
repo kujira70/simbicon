@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\GLUI">
+      <UniqueIdentifier>{309dc0f5-7645-40d6-990c-d85b171ca74a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\GLUI">
+      <UniqueIdentifier>{b3ca69de-55f2-4e57-a1d6-e13dcfa6bbed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Static Files">
+      <UniqueIdentifier>{89da29fd-fcdd-45a4-81f1-a684895fc1d5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CubeBg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GLCamera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GLMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GLShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GLTexture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GLUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OBJReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GLUICheckBox.cpp">
+      <Filter>Source Files\GLUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GLUICurveEditor.cpp">
+      <Filter>Source Files\GLUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GLUIWindow.cpp">
+      <Filter>Source Files\GLUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GLUtils_wrap.cpp">
+      <Filter>Static Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CubeBg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GLCamera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GLMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GLShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GLTexture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GLUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OBJReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GLUI.h">
+      <Filter>Header Files\GLUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GLUICallback.h">
+      <Filter>Header Files\GLUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GLUICheckBox.h">
+      <Filter>Header Files\GLUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GLUIContainer.h">
+      <Filter>Header Files\GLUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GLUICurveEditor.h">
+      <Filter>Header Files\GLUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GLUISizer.h">
+      <Filter>Header Files\GLUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GLUITopLevelWindow.h">
+      <Filter>Header Files\GLUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GLUIWindow.h">
+      <Filter>Header Files\GLUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GLUtilsDll.h">
+      <Filter>Static Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="GLUtils.i" />
+    <None Include="..\Python\GLUtilsTest.py" />
+  </ItemGroup>
+</Project>

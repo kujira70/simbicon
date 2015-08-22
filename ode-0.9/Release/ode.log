@@ -1,0 +1,105 @@
+﻿2015/08/21 8:50:14 にビルドを開始しました。
+     1>ノード 3 上のプロジェクト "C:\Dev\Simbicon\ode-0.9\ode.vcxproj" (Build ターゲット)。
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Dev\Simbicon\binaries\Release\ode.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:LIBCMT /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Dev\Simbicon\binaries\Release\ode.pdb" /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Dev\Simbicon\binaries\Release\ode.lib" /MACHINE:X86 /SAFESEH /DLL Release\gimpact.obj
+         Release\gim_boxpruning.obj
+         Release\gim_contact.obj
+         Release\gim_math.obj
+         Release\gim_memory.obj
+         Release\gim_trimesh.obj
+         Release\gim_trimesh_capsule_collision.obj
+         Release\gim_trimesh_ray_collision.obj
+         Release\gim_trimesh_sphere_collision.obj
+         Release\gim_trimesh_trimesh_collision.obj
+         Release\gim_tri_tri_overlap.obj
+         Release\array.obj
+         Release\box.obj
+         Release\capsule.obj
+         Release\collision_cylinder_box.obj
+         Release\collision_cylinder_plane.obj
+         Release\collision_cylinder_sphere.obj
+         Release\collision_cylinder_trimesh.obj
+         Release\collision_kernel.obj
+         Release\collision_quadtreespace.obj
+         Release\collision_space.obj
+         Release\collision_transform.obj
+         Release\collision_trimesh_box.obj
+         Release\collision_trimesh_ccylinder.obj
+         Release\collision_trimesh_distance.obj
+         Release\collision_trimesh_opcode.obj
+         Release\collision_trimesh_plane.obj
+         Release\collision_trimesh_ray.obj
+         Release\collision_trimesh_sphere.obj
+         Release\collision_trimesh_trimesh.obj
+         Release\collision_util.obj
+         Release\convex.obj
+         Release\cylinder.obj
+         Release\error.obj
+         "Release\export-dif.obj"
+         Release\fastdot.obj
+         Release\fastldlt.obj
+         Release\fastlsolve.obj
+         Release\fastltsolve.obj
+         Release\heightfield.obj
+         Release\joint.obj
+         Release\lcp.obj
+         Release\mass.obj
+         Release\mat.obj
+         Release\matrix.obj
+         Release\memory.obj
+         Release\misc.obj
+         Release\obstack.obj
+         Release\ode.obj
+         Release\odemath.obj
+         Release\plane.obj
+         Release\quickstep.obj
+         Release\ray.obj
+         Release\rotation.obj
+         Release\sphere.obj
+         Release\step.obj
+         Release\stepfast.obj
+         Release\testing.obj
+         Release\timer.obj
+         Release\util.obj
+         Release\IceAABB.obj
+         Release\IceContainer.obj
+         Release\IceHPoint.obj
+         Release\IceIndexedTriangle.obj
+         Release\IceMatrix3x3.obj
+         Release\IceMatrix4x4.obj
+         Release\IceOBB.obj
+         Release\IcePlane.obj
+         Release\IcePoint.obj
+         Release\IceRandom.obj
+         Release\IceRay.obj
+         Release\IceRevisitedRadix.obj
+         Release\IceSegment.obj
+         Release\IceTriangle.obj
+         Release\IceUtils.obj
+         Release\Opcode.obj
+         Release\OPC_AABBCollider.obj
+         Release\OPC_AABBTree.obj
+         Release\OPC_BaseModel.obj
+         Release\OPC_BoxPruning.obj
+         Release\OPC_Collider.obj
+         Release\OPC_HybridModel.obj
+         Release\OPC_LSSCollider.obj
+         Release\OPC_MeshInterface.obj
+         Release\OPC_Model.obj
+         Release\OPC_OBBCollider.obj
+         Release\OPC_OptimizedTree.obj
+         Release\OPC_PlanesCollider.obj
+         Release\OPC_RayCollider.obj
+         Release\OPC_SphereCollider.obj
+         Release\OPC_SweepAndPrune.obj
+         Release\OPC_TreeBuilders.obj
+         Release\OPC_TreeCollider.obj
+         Release\OPC_VolumeCollider.obj
+         C:\Dev\Simbicon\binaries\Release\Utils.lib
+            ライブラリ C:\Dev\Simbicon\binaries\Release\ode.lib とオブジェクト C:\Dev\Simbicon\binaries\Release\ode.exp を作成中
+         ode.vcxproj -> C:\Dev\Simbicon\binaries\Release\ode.dll
+     1>プロジェクト "C:\Dev\Simbicon\ode-0.9\ode.vcxproj" (Build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:01.94
